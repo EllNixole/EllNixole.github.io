@@ -89,7 +89,28 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
+
+  #contact-section{
+    text-align: center;
+    margin: 2vw 40vw;
+    border-style: solid;
+    border-color: #333333;
+    
+  }
+
+  #contact-button:hover{
+    background-color: #333333;
+    color: white;
+    transition: 0.3s;
+  }
   
+  #contact-button{
+    width: 100%;
+    background: none;
+    font-size: 1.5rem;
+    border: none;
+  }
+
   footer {
     background-color: #333;
     padding: 20px;
