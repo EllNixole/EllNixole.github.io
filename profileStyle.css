@@ -31,22 +31,22 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
     margin-right: 10px;
   }
   
-  .navItem {
+.navItem {
     text-decoration: none;
     color: #fff;
     padding: 5px;
-  }
+}
 
-  .navItem:hover{
+.navItem:hover{
     color:#c1c1c1
-  }
+}
   
-  h2 {
+h2 {
     font-size: 20px;
     margin: 20px;
-  }
+}
   
-  .box-1 {
+.box-1 {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -54,97 +54,135 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
+}
   
-  #profilePic {
+#profilePic {
     width: 200px;
     border-radius: 50%;
-  }
+}
   
-  #description {
+#description {
     margin-left: 20px;
-  }
+}
   
-  section#box2 {
+section#box2 {
     display: flex;
     justify-content: space-around;
     margin: 20px;
-  }
+}
   
-  article {
+article {
     flex-basis: 45%;
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
+}
   
-  #goals-header {
+#goals-header {
     text-align: center;
-  }
+}
   
-  section#box3 {
+section#box3 {
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
+}
 
-  #contact-section{
+#contact-section{
     text-align: center;
     margin: 2vw 40vw;
     border-style: solid;
     border-color: #333333;
     
-  }
+}
 
-  #contact-button:hover{
+#contact-button:hover{
     background-color: #333333;
     color: white;
     transition: 0.3s;
-  }
+}
   
-  #contact-button{
+#contact-button{
     width: 100%;
     background: none;
     font-size: 1.5rem;
     border: none;
-  }
+}
 
-  footer {
+footer {
     background-color: #333;
     padding: 20px;
     color: #fff;
     text-align: center;
-  }
+}
   
-  #search {
+#search {
     width: 200px;
     padding: 5px;
     border-radius: 5px;
     border: none;
-  }
+}
   
-  #subBtn {
+#subBtn {
     padding: 5px 10px;
     border: none;
     background-color: #555;
     color: #fff;
     border-radius: 5px;
     cursor: pointer;
-  }
+}
   
-  small {
+small {
     display: block;
     margin-top: 10px;
-  }
+}
 
-  h4{
+h4{
     margin: 1vw;
-  }
+}
 
-  #subBtn:hover{
+#subBtn:hover{
     background-color: #acacac;
     transition: 0.5s;
+}
+
+@media (max-width: 768px) {
+  .flexContainer {
+    flex-direction: column;
+    padding: 10px;
   }
-  
+
+  .box-1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #description {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  section#box2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  article {
+    flex-basis: 90%;
+    margin-bottom: 20px;
+  }
+
+  footer {
+    padding: 10px;
+  }
+
+  #art1,#art2{
+    width: 80%;
+  }
+
+  #contact-section{
+    margin: 2vw 20vw;
+  }
+}
